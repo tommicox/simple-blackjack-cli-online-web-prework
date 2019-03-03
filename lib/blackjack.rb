@@ -36,13 +36,14 @@ end
 
 def hit?(card_total)
   # code hit? here
-  input_get_user_input
+  prompt_user
+  input = get_user_input
 end
 
 def invalid_command
   # code invalid_command here
   puts "Please enter a valid command"
-  #{prompt_user}
+  prompt_user
 end
 
 #####################################################
