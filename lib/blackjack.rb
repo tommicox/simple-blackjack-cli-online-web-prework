@@ -32,7 +32,7 @@ end
 
 def initial_round
   # code #initial_round here
-  puts x ||
+  
   
 end
 
