@@ -11,7 +11,6 @@ end
 
 def display_card_total(number)
   # code #display_card_total here
-  put card_total == < 21
   number = "Your cards add up to #{card_total}"
   puts number
 end
