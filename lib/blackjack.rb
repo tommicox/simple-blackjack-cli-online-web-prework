@@ -17,7 +17,7 @@ end
 
 def prompt_user
   # code #prompt_user here
-  puts "Type 'h'to hit or 's' to stay" || 
+  expect($stdout).to
 end
 
 def get_user_input
